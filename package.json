@@ -1,0 +1,43 @@
+{
+  "name": "hexo-renderer-stylus-full",
+  "version": "0.1.0",
+  "description": "Stylus renderer plugin for Hexo with Nib, Rupture and Kouto Swiss",
+  "main": "index",
+  "scripts": {
+    "eslint": "eslint .",
+    "jscs": "jscs .",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "repository": "diogomoretti/hexo-renderer-stylus-full",
+  "keywords": [
+    "hexo",
+    "stylus",
+    "css",
+    "style",
+    "stylesheet",
+    "styl",
+    "renderer"
+  ],
+  "author": "Diogo Moretti <diogo.pearljam@gmail.com> (http://diogo.nu)",
+  "license": "MIT",
+  "dependencies": {
+    "kouto-swiss": "^1.1.0",
+    "nib": "^1.1.2",
+    "rupture": "^0.7.1",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.11.1",
+    "eslint-config-hexo": "^1.0.3",
+    "istanbul": "^0.4.5",
+    "jscs": "^3.0.7",
+    "jscs-preset-hexo": "^1.0.1",
+    "mocha": "^3.2.0"
+  }
+}
